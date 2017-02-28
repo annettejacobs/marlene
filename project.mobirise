@@ -45,11 +45,11 @@
           "_params": {
             "paddingTop": "0",
             "paddingBottom": "2",
-            "bgImageRadio": false,
+            "bgImageRadio": true,
             "parallax": true,
-            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
-            "bgColor": "#c1c1c1",
-            "bgColorRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/blue-2000x471.jpg",
+            "bgColor": "#cccccc",
+            "bgColorRadio": false,
             "bgVideo": {
               "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
             },
@@ -64,12 +64,14 @@
           },
           "button": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\">SEE LIVE DEMO</a>",
           "text": "Create awesome mobile-friendly websites. No coding and free.",
-          "title": "<br>DIE BESTE KOEKSISTERS",
+          "title": "<span style=\"line-height: 1.1;\"><br></span><span style=\"line-height: 1.1;\">DIE BESTE KOEKSISTERS</span><br>",
           "_styles": {
             "H3": {
               "font-family": "'Indie Flower', cursive",
               "googleLink": "https://fonts.googleapis.com/css?family=Indie+Flower",
-              "font-size": "60px"
+              "font-size": "60px",
+              "text-align": "left",
+              "color": "#ffffff"
             }
           }
         },
